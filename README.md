@@ -25,7 +25,7 @@ Take a moment to look at the package structure in `src`. There are packages for
 the layers of CA, and in some of these packages are "subpackages" for each of the
 three use cases, `login`, `signup`, and `logged_in`.
 
-These packages don't have subpackages: `data_access`, `entity`, `view`, and
+These packages don't have subpackages: `data_access`, `entity`, `test.view`, and
 `app`.
 
 **Thought question:** Why don't these have use-case-specific subpackages?
